@@ -1,0 +1,34 @@
+int tempPin = 0;
+int buzzerPin = 2;
+int ledOut = 4;
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(buzzerPin, OUTPUT);
+  pinMode(ledOut, OUTPUT);
+}
+
+void loop()
+{
+  float temp;
+  int lightVal = analogRead(A1);
+  temp = analogRead(tempPin);
+  temp = temp * 0.48828125;
+  Serial.print("TEMPRATURE = ");
+  Serial.print(temp);
+  Serial.print("*C");
+  Serial.println();
+  Serial.println(lightVal);
+  if(temp>74){
+    digitalWrite(buzzerPin, HIGH);
+  }
+  else{
+    digitalWrite(buzzerPin, LOW);
+  }
+  if(lightVal<900){
+    digitalWrite(ledOut, HIGH);
+  }
+  else{
+    digitalWrite(ledOut, LOW);
+  }
+}
