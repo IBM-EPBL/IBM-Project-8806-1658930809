@@ -1,0 +1,84 @@
+#container1{
+    padding-top: 5%;
+}
+
+#section1{
+    background-color: #2F5233;
+    color: white;
+}
+
+#img1{
+    height: auto;
+    width: 100%;
+    border-radius: 40px;
+}
+
+#col1{
+    margin: auto;
+}
+
+#content1{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#content2{
+    padding-top: 5%;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#section2HeadingDiv{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.sectionHeading{
+    font-size: 2rem;
+    letter-spacing: 3px;
+}
+
+#firstLetter{
+    font-size: 3rem;
+}
+
+#img2{
+    height: auto;
+    width: 100%;
+    border-radius: 40px;
+}
+
+#content3{
+    margin-top: 7%;
+    text-align: justify;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+#content4{
+    font-style: italic;
+    font-size: 1.2rem;
+
+}
+
+#col2{
+    margin: auto;
+}
+
+#section3{
+    background-color: #2F5233;
+    color: white;
+}
+
+.contactCol{
+    margin: auto;
+    text-align: center;
+    padding-top: 5%;
+    font-size: 4rem;
+}
+
+.placeOrder{
+    padding-top:5%
+}
